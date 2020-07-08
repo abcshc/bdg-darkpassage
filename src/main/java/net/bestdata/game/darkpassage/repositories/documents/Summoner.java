@@ -15,7 +15,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-@Document(collection = "summoner")
+@Document(collection = "summoners")
 @CompoundIndexes({
         @CompoundIndex(def = "{'region' : 1, 'summonerName': 1}", name = "summoner_name_index", unique = true),
         @CompoundIndex(def = "{'puuid' : 1}", name = "puuid_index", unique = true)

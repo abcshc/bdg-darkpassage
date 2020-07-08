@@ -1,4 +1,4 @@
-package net.bestdata.game.darkpassage.controllers.responses;
+package net.bestdata.game.darkpassage.routers.responses;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
