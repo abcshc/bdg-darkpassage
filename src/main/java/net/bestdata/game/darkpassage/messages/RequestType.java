@@ -1,4 +1,4 @@
-package net.bestdata.game.darkpassage.model.enums;
+package net.bestdata.game.darkpassage.messages;
 
 import lombok.Getter;
 
