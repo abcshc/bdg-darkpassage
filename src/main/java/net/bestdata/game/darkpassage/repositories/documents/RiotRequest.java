@@ -1,8 +1,9 @@
-package net.bestdata.game.darkpassage.messages;
+package net.bestdata.game.darkpassage.repositories.documents;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import net.bestdata.game.darkpassage.model.enums.Region;
+import net.bestdata.game.darkpassage.model.enums.RequestType;
 
 @AllArgsConstructor
 @Getter
@@ -17,9 +18,5 @@ public class RiotRequest {
 
     public static RiotRequest newSummonerDetailRequest(String summonerName, Region region) {
         return new RiotRequest(RequestType.SUMMONER_DETAIL, summonerName, region);
-    }
-
-    public int priority() {
-        return requestType.getPriority();
     }
 }
